@@ -1,0 +1,8 @@
+{
+  "name": "nazar-playground",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Demo app for Nazar AI code review",
+  "main": "server/index.js",
+  "dependencies": { "express": "^4.21.0", "pg": "^8.13.0", "react": "^18.3.1" }
+}
