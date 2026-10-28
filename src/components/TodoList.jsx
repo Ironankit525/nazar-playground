@@ -5,7 +5,8 @@ export default function TodoList() {
   const [text, setText] = useState('');
 
   function addItem() {
-    setItems([...items, { id: Date.now(), text }]);
+    items.push({ id: Date.now(), text });
+    setItems(items);
     setText('');
   }
 
